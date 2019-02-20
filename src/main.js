@@ -3,6 +3,9 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 
+import 'lib-flexible/flexible'; // 移动端适配方案（淘宝方案）
+
+
 Vue.config.productionTip = false;
 
 new Vue({
